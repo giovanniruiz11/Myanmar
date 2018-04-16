@@ -1,91 +1,1043 @@
+/* https://paddle8.com/work/ellsworth-kelly/78782-color-squares-4/ */
 
-
-.container {
-	height: 100vh;
-	width: 100vw;
-	background-color: orange;
+@media screen and (min-width: 1300px) {
+body {
+	background-image: url(hyper.png);
+	width: 100%;
+	background-size: 210vh 105vh;
+	margin: 0;
+	background-repeat: no-repeat;
 }
 
-.bar{
-	height: 15vh;
-	width: 100vw;
-	display: flex;
+#myTopnav {
+      margin: 0 auto;
+      width: 75%;
+      margin-left: 16vw;
+}
+    nav {
+      margin-top: 0px;
+      display: flex;
+      flex-wrap:wrap;
+      width: 100%;
+      padding: 10px;
+    
+      border: none;
+    }
+    
+    nav ul {
+      display: flex;
+    }
+    
+    nav li {
+      display: table-cell;
+      margin: 0;
+      text-align: center;
+    }
+    
+    nav li a {
+      padding:  25px;
+      text-decoration: none;
+      font-weight: bold;
+      font-family: Verdana, Sans-Serif;
+      font-size: 1em;
+      color: white;
+      border-bottom: 0.1em grey;
+      
+    }
+
+    nav li a:hover {
+      background: red;
+      transition: .25s ease-in-out;
+      opacity: 0.7;
+    }
+	     
+.text {
+	font-family: Roboto, Sans-Serif;
+	text-align: center;
+	color: white;
+	font-size: 50px;
+	margin-top: 10px;
+}
+	
+.active {
+     background-color: grey;
+     color: black;
 }
 
-.title{
-	height: 100%;
-	width: 25%;
+.active2 {
+     color: black;
+}
+
+.active4 {
+     background-color: grey;
+     color: white;
+}
+	
+.bar {
+  background-color: red;
+  height: 1px;
+  opacity: 0.2;
+}
+
+.topnav .icon {
+    display: none;
+}
+
+.text1 {
+	font-family: roboto, Sans-Serif;
+	text-align: center;
+	color: white;
+	font-size: 30px;
+	height: 80vh;
+	width: 100%;
+	opacity: 0.7;
+}
+
+.black-font {
+	color: black;
+}
+	
+.lamb {
+	background-image: url(Cars/lamborghini.jpg);
+	width: 100%;
+	background-size: 200vh 115vh;
+	margin: 0;
+	background-attachment: fixed;
+}
+
+.white {
+	background-color: blue;
+	height: 75vh;
+	width: 200vh;
+    box-shadow: -10px -20px 20px black;
+}
+
+.black {
+	background-color: black;
+	height: 125vh;
+	width: 100%;
+    box-shadow: -10px -20px 20px black;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.little {
+	background-color: black;
+	height: 70%;
+	width: 33%;
+}
+
+.margin {
+	margin: auto;
+	border: 2px solid orange;
+	background-color: transparent;
+	height: 70%;
+	width: 80%;
+}
+
+.margin2 {
+	margin: auto;
+	border: 2px solid orange;
+	background-color: black;
+	height: 25%;
+	width: 80%;
+}
+
+.m_blue {
+	margin: auto;
+	border: 2px solid #0E5A89;
+	background-color: transparent;
+}
+
+.m_white {
+	margin: auto;
+	border: 2px solid white;
+	background-color: transparent;
+}
+
+.m_red {
+	margin: auto;
+	border: 2px solid #960B0B;
+	background-color: transparent;
+}
+
+.m_green {
+	margin: auto;
+	border: 2px solid green;
+	background-color: transparent;
+}
+
+.m_grey {
+	margin: auto;
+	border: 2px solid #6E6E6E;
+	background-color: transparent;
+}
+
+.m_ice {
+	margin: auto;
+	border: 2px solid #AFC6CA;
+	background-color: transparent;
+}
+
+.m_purp {
+	margin: auto;
+	border: 2px solid #3A274F;
+	background-color: transparent;
+}
+
+.m_yellow {
+	margin: auto;
+	border: 2px solid #F7E429;
+	background-color: transparent;
+}
+
+.rari {
+	background-image: url(Cars/ferrari.jpg);
+	background-size: 210vh 135vh;
+	margin: 0;
+	width: 100%;
+	background-attachment: fixed;
+}
+
+.laren {
+	background-image: url(Cars/mclaren.jpg);
+	background-size: 200vh 107vh;
+	margin: 0;
+	width: 100%;
+	background-attachment: fixed;
+}
+
+.tesla {
+	background-image: url(Cars/tesla.jpg);
+	background-size: 200vh 135vh;
+	margin: 0;
+	width: 100%;
+	background-attachment: fixed;
+}
+
+.porsche {
+	background-image: url(Cars/porsche.jpg);
+	background-size: 200vh 115vh;
+	margin: 0;
+	width: 100%;
+	background-attachment: fixed;
+}
+
+.mercedes {
+	background-image: url(Cars/nercedes.jpg);
+	background-size: 200vh 110vh;
+	margin: 0;
+	width: 100%;
+	background-attachment: fixed;
+}
+
+.bug {
+	background-image: url(Cars/bugatti.jpg);
+	background-size: 200vh 115vh;
+	margin: 0;
+	width: 100%;
+	background-attachment: fixed;
+}
+
+.egg {
+	background-image: url(Cars/koenigsegg.jpg);
+	background-size: 200vh 130vh;
+	margin: 0;
+	width: 100%;
+	background-attachment: fixed;
+}
+
+.blank_space {
+	height: 150px;
+}
+
+.blank {
+	height: 100px;
+}
+
+h1 {
+	font-family: roboto, Sans-Serif;
+	color: white;
+	text-align: center;
+}
+
+p {
+	font-family: roboto, Sans-Serif;
+	color: white;
+	text-align: center;
+}
+
+.red {
+	color: #DF0101;
+}
+
+img {
+	content: url(engine.png);
+	height: 35vh;
+	width: 27vw;
+	margin-left: 0;
+}
+	
+.gera {
+	content: url(egg-engine.png);
+	height: 30vh;
+	width: 35vw;
+	margin-left: -4vw;
+}
+
+.chiron {
+	content: url(chiron_motor_01.png);
+	height: 37vh;
+	width: 23vw;
+	margin-left: 2vw;
+}
+	
+.mer {
+	content: url(mercedes-engine.png);
+	height: 35vh;
+	width: 37vw;
+	margin-left: -5vw;
+}
+
+.mclar {
+	content: url(laren-engine.png);
+}
+	
+.ferar {
+	content: url(rari-engine.png);
+	height: 37vh;
+	width: 40vw;
+	margin-left: -7vw;
+}
+	
+.pors {
+	content: url(porsche-engine.png);
+	height: 35vh;
+	width: 40vw;
+	margin-left: -6.5vw;
+}
+	
+.bat {
+	content: url(tesla-bat.png);
+	height: 30vh;
+	width: 35vw;
+	margin-left: -4.25vw;
+}
+
+.ratio {
+	height: calc(100vh/5);
+	width: calc(100vw/4);
+}
+	
+.msrp {
+	font-family: roboto, Sans-Serif;
+	color: white;
+	text-align: center;
+	font-size: 60px;
+}
+	
+img:hover {
+    cursor: pointer;
+}
+
+img:active {
+	transform: scale(0.90, 0.90);
+}
+}
+
+
+@media screen and (max-width: 1299px) {
+body {
+	background-image: url(hyper.png);
+	width: 100%;
+	background-size: 210vh 105vh;
+	margin: 0;
+	background-repeat: no-repeat;
+}
+
+#myTopnav {
+      margin: 0 auto;
+      width: 100%;
+      padding-left: 0vw;
+}
+    nav {
+      margin-top: 0px;
+      display: flex;
+      flex-wrap:wrap;
+      width: 100%;
+      padding: 10px;
+    
+      border: none;
+    }
+    
+    nav ul {
+      display: flex;
+    }
+    
+    nav li {
+      display: table-cell;
+      margin: 0;
+      text-align: center;
+    }
+    
+    nav li a {
+      padding:  25px;
+      text-decoration: none;
+      font-weight: bold;
+      font-family: Verdana, Sans-Serif;
+      font-size: 1em;
+      color: white;
+      border-bottom: 0.1em grey;
+      
+    }
+
+    nav li a:hover {
+      background: red;
+      transition: .25s ease-in-out;
+      opacity: 0.7;
+    }
+	     
+.text {
+	font-family: Roboto, Sans-Serif;
+	text-align: center;
+	color: white;
+	font-size: 50px;
+	margin-top: 10px;
+}
+	
+.active {
+     background-color: grey;
+     color: black;
+}
+
+.active2 {
+     color: black;
+}
+
+.active4 {
+     background-color: grey;
+     color: white;
+}
+	
+.bar {
+  background-color: red;
+  height: 1px;
+  opacity: 0.2;
+}
+
+.topnav .icon {
+    display: none;
+}
+
+.text1 {
+	font-family: roboto, Sans-Serif;
+	text-align: center;
+	color: white;
+	font-size: 30px;
+	height: 80vh;
+	width: 100%;
+	opacity: 0.7;
+}
+
+.black-font {
+	color: black;
+}
+	
+.lamb {
+	background-image: url(Cars/lamborghini.jpg);
+	width: 100%;
+	background-size: 200vh 115vh;
+	margin: 0;
+	background-attachment: fixed;
+}
+
+.white {
 	background-color: white;
-	background-image:url(images/1myanmar.png);
+	height: 75vh;
+	width: 200vh;
+    box-shadow: -10px -20px 20px black;
 }
 
-.inbox{ 
+.black {
+	background-color: black;
+	height: 125vh;
+	width: 100%;
+    box-shadow: -10px -20px 20px black;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.little {
+	background-color: black;
+	height: 70%;
+	width: 33%;
+}
+
+.margin {
+	margin: auto;
+	border: 2px solid orange;
+	background-color: transparent;
+	height: 70%;
+	width: 80%;
+}
+
+.margin2 {
+	margin: auto;
+	border: 2px solid orange;
+	background-color: black;
+	height: 25%;
+	width: 80%;
+}
+
+.m_blue {
+	margin: auto;
+	border: 2px solid #0E5A89;
+	background-color: transparent;
+}
+
+.m_white {
+	margin: auto;
+	border: 2px solid white;
+	background-color: transparent;
+}
+
+.m_red {
+	margin: auto;
+	border: 2px solid #960B0B;
+	background-color: transparent;
+}
+
+.m_green {
+	margin: auto;
+	border: 2px solid green;
+	background-color: transparent;
+}
+
+.m_grey {
+	margin: auto;
+	border: 2px solid #6E6E6E;
+	background-color: transparent;
+}
+
+.m_ice {
+	margin: auto;
+	border: 2px solid #AFC6CA;
+	background-color: transparent;
+}
+
+.m_purp {
+	margin: auto;
+	border: 2px solid #3A274F;
+	background-color: transparent;
+}
+
+.m_yellow {
+	margin: auto;
+	border: 2px solid #F7E429;
+	background-color: transparent;
+}
+
+.rari {
+	background-image: url(Cars/ferrari.jpg);
+	background-size: 210vh 135vh;
+	margin: 0;
+	width: 100%;
+	background-attachment: fixed;
+}
+
+.laren {
+	background-image: url(Cars/mclaren.jpg);
+	background-size: 200vh 107vh;
+	margin: 0;
+	width: 100%;
+	background-attachment: fixed;
+}
+
+.tesla {
+	background-image: url(Cars/tesla.jpg);
+	background-size: 200vh 135vh;
+	margin: 0;
+	width: 100%;
+	background-attachment: fixed;
+}
+
+.porsche {
+	background-image: url(Cars/porsche.jpg);
+	background-size: 200vh 115vh;
+	margin: 0;
+	width: 100%;
+	background-attachment: fixed;
+}
+
+.mercedes {
+	background-image: url(Cars/nercedes.jpg);
+	background-size: 200vh 110vh;
+	margin: 0;
+	width: 100%;
+	background-attachment: fixed;
+}
+
+.bug {
+	background-image: url(Cars/bugatti.jpg);
+	background-size: 200vh 115vh;
+	margin: 0;
+	width: 100%;
+	background-attachment: fixed;
+}
+
+.egg {
+	background-image: url(Cars/koenigsegg.jpg);
+	background-size: 200vh 130vh;
+	margin: 0;
+	width: 100%;
+	background-attachment: fixed;
+}
+
+.blank_space {
+	height: 150px;
+}
+
+.blank {
+	height: 100px;
+}
+
+h1 {
+	font-family: roboto, Sans-Serif;
+	color: white;
 	text-align: center;
-	font-family: "Rockwell";
-	font-size: 200%;
+}
+
+p {
+	font-family: roboto, Sans-Serif;
+	color: white;
 	text-align: center;
 }
 
-.hover:hover {
-	box-shadow: 0px 0px 150px #000;
-	z-index: 2;
-	-ms-transition: all 200ms ease-in;
-	-ms-transform: scale(1.01);   
-	-moz-transition: all 200ms ease-in;
-	-moz-transform: scale(1.01);
-	transition: all 200ms ease-in;
-	transform: scale(1.01);
-	overflow: visible;
-	cursor: pointer;
+.red {
+	color: #DF0101;
 }
 
-.square:active {
-	transform: scale(0.99, 0.99);
+img {
+	content: url(engine.png);
+	height: 26vh;
+	width: 17vw;
+	margin-left: 60;
+}
+	
+.gera {
+	content: url(egg-engine.png);
+	height: 29vh;
+	width: 35vw;
+	margin-left: -4vw;
 }
 
-.head { 
-	font-family: "Rockwell";
-	font-size: 200%;
+.chiron {
+	content: url(chiron_motor_01.png);
+	height: 29vh;
+	width: 15vw;
+	margin-left: 5.5vw;
+}
+	
+.mer {
+	content: url(mercedes-engine.png);
+	height: 27vh;
+	width: 27vw;
+	margin-left: 3px;
+}
+
+.mclar {
+	content: url(laren-engine.png);
+	margin-left: 3;
+}
+	
+.ferar {
+	content: url(rari-engine.png);
+	height: 27vh;
+	width: 31vw;
+	margin-left: -3vw;
+}
+	
+.pors {
+	content: url(porsche-engine.png);
+	height: 25vh;
+	width: 26vw;
+	margin-left: 0vw;
+}
+	
+.bat {
+	content: url(tesla-bat.png);
+	height: 29vh;
+	width: 35vw;
+	margin-left: -4.25vw;
+}
+
+.ratio {
+	height: 20vh;
+	width: 25vw;
+}
+	
+.msrp {
+	font-family: roboto, Sans-Serif;
+	color: white;
 	text-align: center;
+	font-size: 60px;
+}
+	
+img:hover {
+    cursor: pointer;
 }
 
-.tabs{ 
-	height: 100%;
-	width: 75%;
-	display: flex;
-	background-color: #9696EA;
+img:active {
+	transform: scale(0.90, 0.90);
+}
 }
 
-.box{ 
-	height: 100%;
+
+@media screen and (max-width:899px) {
+	
+	
+body {
+	background-image: url(hyper.png);
+	background-size: 210vh 105vh;
+	margin: 0;
+	background-repeat: no-repeat;
+}
+
+#myTopnav {
+      margin: 0 auto;
+      width: 100%;
+    }
+    
+     nav {
+      margin-top: 0px;
+      display: flex;
+      width: 100%;
+      border-collapse: collapse;
+      border: none;
+      padding: 0;
+    }
+    
+    nav ul {
+      display: flex;
+      flex-wrap: wrap;
+    }
+    
+    nav li {
+      display: block;
+      margin: 0;
+      text-align: center;
+      width: 90vw;
+    }
+    
+    nav li a {
+      display: block;
+      padding:  20px;
+      text-decoration: none;
+      font-weight: bold;
+      font-family: Verdana, Sans-Serif;
+      font-size: 1em;
+      color: white;
+      border-bottom: 0.1em grey;
+      
+    }
+
+    nav li a:hover {
+      background: red;
+      display: block;
+      opacity: 0.7;
+    }
+
+.bar {
+  background-color: red;
+  height: 1px;
+  margin-top: 10px;
+  opacity: 0.2;
+}
+	
+.active {
+     background-color: grey;
+     color: black;
+}
+
+.active2 {
+     color: black;
+}
+
+.active4 {
+     background-color: grey;
+     color: white;
+}
+
+.topnav a {display: none;}
+  .topnav a.icon {
+    float: right;
+    display: block;
+  }
+
+
+.topnav.responsive {position: relative;}
+  .topnav.responsive a.icon {
+    position: absolute;
+    right: 0;
+    top: 0;
+  }
+  .topnav.responsive a {
+    float: none;
+    display: block;
+    text-align: left;
+  }
+
+
+.text {
+	font-family: Roboto, Sans-Serif;
+	text-align: center;
+	color: white;
+	font-size: 50px;
+	margin-top: 10px;
+}
+
+.text1 {
+	font-family: roboto, Sans-Serif;
+	text-align: center;
+	color: white;
+	font-size: 10px;
+	height: 76%;
+	opacity: 0.7;
+}
+
+.black-font {
+	color: black;
+}
+
+.lamb {
+	background-image: url(Cars/lamborghini.jpg);
+	width: 100%;
+	background-size: 200vh 115vh;
+	margin: 0;
+	background-attachment: fixed;
+}
+
+.white {
+	background-color: white;
+	height: 75vh;
+	width: 200vh;
+    box-shadow: -10px -20px 20px black;
+}
+
+.black {
+	background-color: black;
+	height: 145vh;
+	width: 100%;
+    box-shadow: -10px -20px 20px black;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+
+.little {
+	background-color: black;
+	height: 25%;
 	width: 100%;
 }
 
-.rest{ 
-	height: 85vh;
-	width: 100vw;
-	margin: .5%;
-	background-color: #F4F4FC;
-}
-
-.row{
-	height: 48%;
-	width: 100%;
-	display: flex;
-	margin-left: auto;
-    margin-right: auto;
-	margin-top: auto;
-	margin-bottom: .5%;
-}
-
-.square{ 
+.margin {
+	margin: auto;
+	border: 2px solid orange;
+	background-color: transparent;
 	height: 100%;
-	width: 50%;
-	background-color: purple;
-	margin: .5%;
-	display: flex;
+	width: 80%;
 }
 
-.hh{ 
-	background-image: url("images/hh.jpg")
+.margin2 {
+	margin: auto;
+	border: 2px solid orange;
+	background-color: black;
+	height: 13%;
+	width: 90%;
+}
+
+.m_blue {
+	margin: auto;
+	border: 2px solid #0E5A89;
+	background-color: transparent;
+}
+
+.m_white {
+	margin: auto;
+	border: 2px solid white;
+	background-color: transparent;
+}
+
+.m_red {
+	margin: auto;
+	border: 2px solid #960B0B;
+	background-color: transparent;
+}
+
+.m_green {
+	margin: auto;
+	border: 2px solid green;
+	background-color: transparent;
+}
+
+.m_grey {
+	margin: auto;
+	border: 2px solid #6E6E6E;
+	background-color: transparent;
+}
+
+.m_ice {
+	margin: auto;
+	border: 2px solid #AFC6CA;
+	background-color: transparent;
+}
+
+.m_purp {
+	margin: auto;
+	border: 2px solid #3A274F;
+	background-color: transparent;
+}
+
+.m_yellow {
+	margin: auto;
+	border: 2px solid #F7E429;
+	background-color: transparent;
+}
+
+.rari {
+	background-image: url(Cars/ferrari2.jpg);
+	background-size: 170vh 115vh;
+	margin: 0;
+	width: 100%;
+	background-attachment: fixed;
+}
+
+.laren {
+	background-image: url(Cars/mclaren.jpg);
+	background-size: 200vh 107vh;
+	margin: 0;
+	width: 100%;
+	background-attachment: fixed;
+}
+
+.tesla {
+	background-image: url(Cars/tesla.jpg);
+	background-size: 200vh 105vh;
+	margin: 0;
+	width: 100%;
+	background-attachment: fixed;
+}
+
+.porsche {
+	background-image: url(Cars/porsche.jpg);
+	background-size: 200vh 120vh;
+	margin: 0;
+	width: 100%;
+	background-attachment: fixed;
+}
+
+.mercedes {
+	background-image: url(Cars/nercedes.jpg);
+	background-size: 200vh 110vh;
+	margin: 0;
+	width: 100%;
+	background-attachment: fixed;
+}
+
+.bug {
+	background-image: url(Cars/bugatti.jpg);
+	background-size: 200vh 115vh;
+	margin: 0;
+	width: 100%;
+	background-attachment: fixed;
+}
+
+.egg {
+	background-image: url(Cars/koenigsegg.jpg);
+	background-size: 200vh 130vh;
+	margin: 0;
+	width: 100%;
+	background-attachment: fixed;
+}
+
+.blank_space {
+	height: 350px;
+}
+
+.blank {
+	height: 50px;
+}
+
+.blank2 {
+	height: 20px;
+}
+	
+b_height {
+	height: 100%;
+}
+
+h1 {
+	font-family: roboto, Sans-Serif;
+	color: white;
+	text-align: center;
+	font-size: 30px;
+}
+
+p {
+	font-family: roboto, Sans-Serif;
+	color: white;
+	text-align: center;
+}
+
+.red {
+	color: #DF0101;
+}
+
+.ratio {
+	height: 0vh;
+	width: 25vw;
+}
+	
+img {
+	content: url(engine.png);
+	height: .25vh;
+	width: 20vw;
+	margin-left: 150px;
+	visibility: hidden;
+}
+
+.gera {
+	height: 0vh;
+}
+
+.chiron {
+	height: 0vh;
+}
+	
+.mer {
+	height: 0vh;
+}
+
+.mclar {
+	height: 0vh;
+}
+	
+.ferar {
+	height: 0vh;
+}
+	
+.pors {
+	height: 0vh;
+}
+	
+.bat {
+	height: 0;
+}
+
+.msrp {
+	font-family: roboto, Sans-Serif;
+	color: white;
+	text-align: center;
+	font-size: 30px;
+}
 }
