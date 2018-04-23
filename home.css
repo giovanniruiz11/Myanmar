@@ -54,27 +54,27 @@ body {
 .text {
 	font-family: Roboto, Sans-Serif;
 	text-align: center;
-	color: white;
+	color: grey;
 	font-size: 50px;
 	margin-top: 10px;
 }
 	
 .active {
-     background-color: grey;
-     color: black;
+     background-color: black;
+     color: red;
 }
 
 .active2 {
-     color: black;
+     color: blue;
 }
 
 .active4 {
-     background-color: grey;
-     color: white;
+     background-color: black;
+     color: red;
 }
 	
 .bar {
-  background-color: red;
+  background-color: orange;
   height: 1px;
   opacity: 0.2;
 }
@@ -86,7 +86,7 @@ body {
 .text1 {
 	font-family: roboto, Sans-Serif;
 	text-align: center;
-	color: white;
+	color: green;
 	font-size: 30px;
 	height: 80vh;
 	width: 100%;
@@ -94,7 +94,7 @@ body {
 }
 
 .black-font {
-	color: black;
+	color: purple;
 }
 	
 .lamb {
