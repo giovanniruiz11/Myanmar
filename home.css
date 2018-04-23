@@ -791,7 +791,7 @@ body {
 .text {
 	font-family: Roboto, Sans-Serif;
 	text-align: center;
-	color: white;
+	color: black;
 	font-size: 50px;
 	margin-top: 10px;
 }
@@ -978,7 +978,7 @@ b_height {
 
 h1 {
 	font-family: roboto, Sans-Serif;
-	color: white;
+	color: black;
 	text-align: center;
 	font-size: 30px;
 }
