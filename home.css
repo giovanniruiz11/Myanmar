@@ -192,7 +192,7 @@ body {
 }
 
 .laren {
-	background-image: url(Cars/mclaren.jpg);
+	background-image: url(images/bigtree.jpg);
 	background-size: 200vh 107vh;
 	margin: 0;
 	width: 100%;
@@ -200,7 +200,7 @@ body {
 }
 	
 .mercedes {
-	background-image: url(Cars/nercedes.jpg);
+	background-image: url(images/biggold.jpg);
 	background-size: 200vh 110vh;
 	margin: 0;
 	width: 100%;
