@@ -809,14 +809,6 @@ body {
 	color: black;
 }
 
-.lamb {
-	background-image: url(Cars/lamborghini.jpg);
-	width: 100%;
-	background-size: 200vh 115vh;
-	margin: 0;
-	background-attachment: fixed;
-}
-
 .white {
 	background-color: white;
 	height: 75vh;
@@ -902,35 +894,19 @@ body {
 	margin: auto;
 	border: 2px solid #F7E429;
 	background-color: transparent;
-}
-
-.rari {
-	background-image: url(Cars/ferrari2.jpg);
-	background-size: 170vh 115vh;
-	margin: 0;
+}	
+	
+.lamb {
+	background-image: url(Cars/lamborghini.jpg);
 	width: 100%;
+	background-size: 200vh 115vh;
+	margin: 0;
 	background-attachment: fixed;
 }
-
+	
 .laren {
 	background-image: url(Cars/mclaren.jpg);
 	background-size: 200vh 107vh;
-	margin: 0;
-	width: 100%;
-	background-attachment: fixed;
-}
-
-.tesla {
-	background-image: url(Cars/tesla.jpg);
-	background-size: 200vh 105vh;
-	margin: 0;
-	width: 100%;
-	background-attachment: fixed;
-}
-
-.porsche {
-	background-image: url(Cars/porsche.jpg);
-	background-size: 200vh 120vh;
 	margin: 0;
 	width: 100%;
 	background-attachment: fixed;
@@ -943,18 +919,10 @@ body {
 	width: 100%;
 	background-attachment: fixed;
 }
-
-.bug {
-	background-image: url(Cars/bugatti.jpg);
-	background-size: 200vh 115vh;
-	margin: 0;
-	width: 100%;
-	background-attachment: fixed;
-}
-
-.egg {
-	background-image: url(Cars/koenigsegg.jpg);
-	background-size: 200vh 130vh;
+	
+.rari {
+	background-image: url(images/bigsky.jpg);
+	background-size: 170vh 115vh;
 	margin: 0;
 	width: 100%;
 	background-attachment: fixed;
