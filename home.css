@@ -138,25 +138,25 @@ body {
 .m_blue {
 	margin: auto;
 	border: 2px solid #0E5A89;
-	background-color: transparent;
+	background-color: blue;
 }
 
 .m_white {
 	margin: auto;
 	border: 2px solid white;
-	background-color: transparent;
+	background-color: white;
 }
 
 .m_red {
 	margin: auto;
 	border: 2px solid #960B0B;
-	background-color: transparent;
+	background-color: red;
 }
 
 .m_green {
 	margin: auto;
 	border: 2px solid green;
-	background-color: transparent;
+	background-color: green;
 }
 
 .m_grey {
@@ -174,13 +174,13 @@ body {
 .m_purp {
 	margin: auto;
 	border: 2px solid #3A274F;
-	background-color: transparent;
+	background-color: purple;
 }
 
 .m_yellow {
 	margin: auto;
 	border: 2px solid #F7E429;
-	background-color: transparent;
+	background-color: yellow;
 }
 	
 .lamb {
