@@ -225,7 +225,7 @@ body {
 
 h1 {
 	font-family: roboto, Sans-Serif;
-	color: blue;
+	color: black;
 	text-align: center;
 }
 
@@ -240,14 +240,14 @@ p {
 }
 
 img {
-	content: url(engine.png);
+	content: url(biggold.jpg);
 	height: 35vh;
 	width: 27vw;
 	margin-left: 0;
 }
 	
 .gera {
-	content: url(egg-engine.png);
+	content: url(bigtree.jpg);
 	height: 30vh;
 	width: 35vw;
 	margin-left: -4vw;
