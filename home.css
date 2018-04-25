@@ -415,14 +415,14 @@ body {
 	background-color: white;
 	height: 75vh;
 	width: 200vh;
-    box-shadow: -10px -20px 20px black;
+    box-shadow: -10px -20px 20px grey;
 }
 
 .black {
 	background-color: black;
 	height: 125vh;
 	width: 100%;
-    box-shadow: -10px -20px 20px black;
+    box-shadow: -10px -20px 20px grey;
     display: flex;
     flex-wrap: wrap;
 }
@@ -781,14 +781,14 @@ body {
 	background-color: white;
 	height: 75vh;
 	width: 200vh;
-    box-shadow: -10px -20px 20px black;
+    box-shadow: -10px -20px 20px grey;
 }
 
 .black {
 	background-color: black;
 	height: 145vh;
 	width: 100%;
-    box-shadow: -10px -20px 20px black;
+    box-shadow: -10px -20px 20px grey;
     display: flex;
     flex-wrap: wrap;
 }
