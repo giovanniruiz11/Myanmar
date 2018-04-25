@@ -221,6 +221,7 @@ body {
 
 .blank {
 	height: 100px;
+	background-color: transparent;
 }
 
 h1 {
