@@ -46,7 +46,7 @@ body {
     }
 
     nav li a:hover {
-      background: blue;
+      background: grey;
       transition: .25s ease-in-out;
       opacity: 0.7;
     }
