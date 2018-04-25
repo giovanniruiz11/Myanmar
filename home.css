@@ -268,7 +268,7 @@ img {
 }
 
 .mclar {
-	content: url(laren-engine.png);
+	content: url(biggold.jpg);
 }
 	
 .ferar {
@@ -410,14 +410,6 @@ body {
 .black-font {
 	color: black;
 }
-	
-.lamb {
-	background-image: url(Cars/lamborghini.jpg);
-	width: 100%;
-	background-size: 200vh 115vh;
-	margin: 0;
-	background-attachment: fixed;
-}
 
 .white {
 	background-color: white;
@@ -503,6 +495,14 @@ body {
 	margin: auto;
 	border: 2px solid #F7E429;
 	background-color: transparent;
+}
+	
+.lamb {
+	background-image: url(images/bigtree.jpg);
+	width: 100%;
+	background-size: 200vh 115vh;
+	margin: 0;
+	background-attachment: fixed;
 }
 
 .rari {
