@@ -74,7 +74,7 @@ body {
 }
 	
 .bar {
-  background-color: orange;
+  background-color: grey;
   height: 1px;
   opacity: 0.2;
 }
@@ -105,7 +105,7 @@ body {
 }
 
 .black {
-	background-color: orange;
+	background-color: grey;
 	height: 125vh;
 	width: 100%;
     box-shadow: -10px -20px 20px black;
@@ -121,7 +121,7 @@ body {
 
 .margin {
 	margin: auto;
-	border: 2px solid orange;
+	border: 2px solid grey;
 	background-color: transparent;
 	height: 70%;
 	width: 80%;
@@ -129,7 +129,7 @@ body {
 
 .margin2 {
 	margin: auto;
-	border: 2px solid orange;
+	border: 2px solid grey;
 	background-color: black;
 	height: 25%;
 	width: 80%;
