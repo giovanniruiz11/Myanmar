@@ -45,6 +45,18 @@
      color: blue;
 }
 
+p {
+	font-family: roboto, Sans-Serif;
+	color: white;
+	text-align: center;
+}
+
+h1 {
+	font-family: roboto, Sans-Serif;
+	color: white;
+	text-align: center;
+	font-size: 30px;
+}
 .text {
 	font-family: Roboto, Sans-Serif;
 	text-align: center;
