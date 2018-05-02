@@ -1,14 +1,3 @@
-/* https://paddle8.com/work/ellsworth-kelly/78782-color-squares-4/ */
-
-@media screen and (min-width: 1300px) {
-body {
-	background-image: url(images/bigtree.jpeg);
-	width: 100%;
-	background-size: 210vh 105vh;
-	margin: 0;
-	background-repeat: no-repeat;
-}
-
 #myTopnav {
       margin: 0 auto;
       width: 75%;
@@ -50,393 +39,43 @@ body {
       transition: .25s ease-in-out;
       opacity: 0.7;
     }
-	     
-.text {
-	font-family: Roboto, Sans-Serif;
-	text-align: center;
-	color: grey;
-	font-size: 50px;
-	margin-top: 10px;
-}
 	
 .active {
      background-color: green;
      color: blue;
 }
 
-.active2 {
-     color: blue;
-}
-
-.active4 {
-     background-color: purple;
-     color: green;
-}
-	
-.bar {
-  background-color: grey;
-  height: 1px;
-  opacity: 0.2;
-}
-
-.topnav .icon {
-    display: none;
-}
-
-.text1 {
-	font-family: roboto, Sans-Serif;
-	text-align: center;
-	color: green;
-	font-size: 30px;
-	height: 80vh;
-	width: 100%;
-	opacity: 0.7;
-}
-
-.black-font {
-	color: purple;
-}
-
-.white {
-	background-color: blue;
-	height: 75vh;
-	width: 200vh;
-    box-shadow: -10px -20px 20px black;
-}
-
-.black {
-	background-color: grey;
-	height: 125vh;
-	width: 100%;
-    box-shadow: -10px -20px 20px black;
-    display: flex;
-    flex-wrap: wrap;
-}
-
-.little {
-	background-color: grey;
-	height: 70%;
-	width: 33%;
-}
-
-.margin {
-	margin: auto;
-	border: 2px solid grey;
-	background-color: transparent;
-	height: 70%;
-	width: 80%;
-}
-
-.margin2 {
-	margin: auto;
-	border: 2px solid grey;
-	background-color: black;
-	height: 25%;
-	width: 80%;
-}
-
-.m_blue {
-	margin: auto;
-	border: 2px solid #0E5A89;
-	background-color: blue;
-}
-
-.m_white {
-	margin: auto;
-	border: 2px solid white;
-	background-color: white;
-}
-
-.m_red {
-	margin: auto;
-	border: 2px solid #960B0B;
-	background-color: red;
-}
-
-.m_green {
-	margin: auto;
-	border: 2px solid green;
-	background-color: green;
-}
-
-.m_grey {
-	margin: auto;
-	border: 2px solid #6E6E6E;
-	background-color: transparent;
-}
-
-.m_ice {
-	margin: auto;
-	border: 2px solid #AFC6CA;
-	background-color: transparent;
-}
-
-.m_purp {
-	margin: auto;
-	border: 2px solid #3A274F;
-	background-color: purple;
-}
-
-.m_yellow {
-	margin: auto;
-	border: 2px solid #F7E429;
-	background-color: yellow;
-}
-	
-.lamb {
-	background-image: url(images/bigsky.jpg);
-	width: 100%;
-	background-size: 200vh 115vh;
-	margin: 0;
-	background-attachment: fixed;
-}
-
-.laren {
-	background-image: url(images/bigtree.jpg);
-	background-size: 200vh 107vh;
-	margin: 0;
-	width: 100%;
-	background-attachment: fixed;
-}
-	
-.mercedes {
-	background-image: url(images/biggold.jpg);
-	background-size: 200vh 110vh;
-	margin: 0;
-	width: 100%;
-	background-attachment: fixed;
-}
-	
-.rari {
-	background-image: url(Cars/ferrari.jpg);
-	background-size: 210vh 135vh;
-	margin: 0;
-	width: 100%;
-	background-attachment: fixed;
-}	
-
-.blank_space {
-	height: 150px;
-}
-
-.blank {
-	height: 100px;
-	background-color: transparent;
-}
-
-h1 {
-	font-family: roboto, Sans-Serif;
-	color: black;
-	text-align: center;
-}
-
-p {
-	font-family: roboto, Sans-Serif;
-	color: white;
-	text-align: center;
-}
-
-.red {
-	color: #DF0101;
-}
-
-img {
-	content: url(biggold.jpg);
-	height: 35vh;
-	width: 27vw;
-	margin-left: 0;
-}
-	
-.gera {
-	content: url(bigtree.jpg);
-	height: 30vh;
-	width: 35vw;
-	margin-left: -4vw;
-}
-
-.chiron {
-	content: url(chiron_motor_01.png);
-	height: 37vh;
-	width: 23vw;
-	margin-left: 2vw;
-}
-	
-.mer {
-	content: url(mercedes-engine.png);
-	height: 35vh;
-	width: 37vw;
-	margin-left: -5vw;
-}
-
-.mclar {
-	content: url(biggold.jpg);
-}
-	
-.ferar {
-	content: url(rari-engine.png);
-	height: 37vh;
-	width: 40vw;
-	margin-left: -7vw;
-}
-	
-.pors {
-	content: url(porsche-engine.png);
-	height: 35vh;
-	width: 40vw;
-	margin-left: -6.5vw;
-}
-	
-.bat {
-	content: url(tesla-bat.png);
-	height: 30vh;
-	width: 35vw;
-	margin-left: -4.25vw;
-}
-
-.ratio {
-	height: calc(100vh/5);
-	width: calc(100vw/4);
-}
-	
-.msrp {
-	font-family: roboto, Sans-Serif;
-	color: white;
-	text-align: center;
-	font-size: 60px;
-}
-	
-img:hover {
-    cursor: pointer;
-}
-
-img:active {
-	transform: scale(0.90, 0.90);
-}
-}
-
-
-@media screen and (max-width: 1299px) {
-body {
-	background-image: url(hyper.png);
-	width: 100%;
-	background-size: 210vh 105vh;
-	margin: 0;
-	background-repeat: no-repeat;
-}
-
-#myTopnav {
-      margin: 0 auto;
-      width: 100%;
-      padding-left: 0vw;
-}
-    nav {
-      margin-top: 0px;
-      display: flex;
-      flex-wrap:wrap;
-      width: 100%;
-      padding: 10px;
-    
-      border: none;
-    }
-    
-    nav ul {
-      display: flex;
-    }
-    
-    nav li {
-      display: table-cell;
-      margin: 0;
-      text-align: center;
-    }
-    
-    nav li a {
-      padding:  25px;
-      text-decoration: none;
-      font-weight: bold;
-      font-family: Verdana, Sans-Serif;
-      font-size: 1em;
-      color: white;
-      border-bottom: 0.1em grey;
-      
-    }
-
-    nav li a:hover {
-      background: red;
-      transition: .25s ease-in-out;
-      opacity: 0.7;
-    }
-	     
 .text {
 	font-family: Roboto, Sans-Serif;
 	text-align: center;
-	color: white;
+	color: black;
 	font-size: 50px;
 	margin-top: 10px;
 }
-	
-.active {
-     background-color: grey;
-     color: black;
-}
 
-.active2 {
-     color: black;
-}
-
-.active4 {
-     background-color: grey;
-     color: white;
-}
-	
-.bar {
-  background-color: red;
-  height: 1px;
-  opacity: 0.2;
-}
-
-.topnav .icon {
-    display: none;
-}
-
-.text1 {
-	font-family: roboto, Sans-Serif;
-	text-align: center;
-	color: white;
-	font-size: 30px;
-	height: 80vh;
-	width: 100%;
-	opacity: 0.7;
-}
-
-.black-font {
-	color: black;
-}
-
-.white {
-	background-color: white;
-	height: 75vh;
-	width: 200vh;
-    box-shadow: -10px -20px 20px grey;
+.blank {
+	height: 10vh;
+	background-color: transparent;
 }
 
 .black {
-	background-color: black;
+	background-color: grey;
 	height: 125vh;
 	width: 100%;
-    box-shadow: -10px -20px 20px grey;
+    box-shadow: -10px -20px 20px black;
     display: flex;
     flex-wrap: wrap;
 }
 
 .little {
-	background-color: black;
+	background-color: grey;
 	height: 70%;
 	width: 33%;
 }
 
 .margin {
 	margin: auto;
-	border: 2px solid orange;
+	border: 2px solid grey;
 	background-color: transparent;
 	height: 70%;
 	width: 80%;
@@ -444,221 +83,18 @@ body {
 
 .margin2 {
 	margin: auto;
-	border: 2px solid orange;
-	background-color: black;
+	border: 2px solid grey;
+	background-color: green;
 	height: 25%;
 	width: 80%;
 }
 
-.m_blue {
+.box {
 	margin: auto;
-	border: 2px solid #0E5A89;
-	background-color: transparent;
+	border: 2px solid black;
+	background-color: green;
 }
 
-.m_white {
-	margin: auto;
-	border: 2px solid white;
-	background-color: transparent;
-}
-
-.m_red {
-	margin: auto;
-	border: 2px solid #960B0B;
-	background-color: transparent;
-}
-
-.m_green {
-	margin: auto;
-	border: 2px solid green;
-	background-color: transparent;
-}
-
-.m_grey {
-	margin: auto;
-	border: 2px solid #6E6E6E;
-	background-color: transparent;
-}
-
-.m_ice {
-	margin: auto;
-	border: 2px solid #AFC6CA;
-	background-color: transparent;
-}
-
-.m_purp {
-	margin: auto;
-	border: 2px solid #3A274F;
-	background-color: transparent;
-}
-
-.m_yellow {
-	margin: auto;
-	border: 2px solid #F7E429;
-	background-color: transparent;
-}
-	
-.lamb {
-	background-image: url(images/bigtree.jpg);
-	width: 100%;
-	background-size: 200vh 115vh;
-	margin: 0;
-	background-attachment: fixed;
-}
-
-.rari {
-	background-image: url(Cars/ferrari.jpg);
-	background-size: 210vh 135vh;
-	margin: 0;
-	width: 100%;
-	background-attachment: fixed;
-}
-
-.laren {
-	background-image: url(Cars/mclaren.jpg);
-	background-size: 200vh 107vh;
-	margin: 0;
-	width: 100%;
-	background-attachment: fixed;
-}
-
-.tesla {
-	background-image: url(Cars/tesla.jpg);
-	background-size: 200vh 135vh;
-	margin: 0;
-	width: 100%;
-	background-attachment: fixed;
-}
-
-.porsche {
-	background-image: url(Cars/porsche.jpg);
-	background-size: 200vh 115vh;
-	margin: 0;
-	width: 100%;
-	background-attachment: fixed;
-}
-
-.mercedes {
-	background-image: url(Cars/nercedes.jpg);
-	background-size: 200vh 110vh;
-	margin: 0;
-	width: 100%;
-	background-attachment: fixed;
-}
-
-.bug {
-	background-image: url(Cars/bugatti.jpg);
-	background-size: 200vh 115vh;
-	margin: 0;
-	width: 100%;
-	background-attachment: fixed;
-}
-
-.egg {
-	background-image: url(Cars/koenigsegg.jpg);
-	background-size: 200vh 130vh;
-	margin: 0;
-	width: 100%;
-	background-attachment: fixed;
-}
-
-.blank_space {
-	height: 150px;
-}
-
-.blank {
-	height: 100px;
-}
-
-h1 {
-	font-family: roboto, Sans-Serif;
-	color: white;
-	text-align: center;
-}
-
-p {
-	font-family: roboto, Sans-Serif;
-	color: white;
-	text-align: center;
-}
-
-.red {
+.t_color {
 	color: #DF0101;
 }
-
-img {
-	content: url(engine.png);
-	height: 26vh;
-	width: 17vw;
-	margin-left: 60;
-}
-	
-.gera {
-	content: url(egg-engine.png);
-	height: 29vh;
-	width: 35vw;
-	margin-left: -4vw;
-}
-
-.chiron {
-	content: url(chiron_motor_01.png);
-	height: 29vh;
-	width: 15vw;
-	margin-left: 5.5vw;
-}
-	
-.mer {
-	content: url(mercedes-engine.png);
-	height: 27vh;
-	width: 27vw;
-	margin-left: 3px;
-}
-
-.mclar {
-	content: url(laren-engine.png);
-	margin-left: 3;
-}
-	
-.ferar {
-	content: url(rari-engine.png);
-	height: 27vh;
-	width: 31vw;
-	margin-left: -3vw;
-}
-	
-.pors {
-	content: url(porsche-engine.png);
-	height: 25vh;
-	width: 26vw;
-	margin-left: 0vw;
-}
-	
-.bat {
-	content: url(tesla-bat.png);
-	height: 29vh;
-	width: 35vw;
-	margin-left: -4.25vw;
-}
-
-.ratio {
-	height: 20vh;
-	width: 25vw;
-}
-	
-.msrp {
-	font-family: roboto, Sans-Serif;
-	color: white;
-	text-align: center;
-	font-size: 60px;
-}
-	
-img:hover {
-    cursor: pointer;
-}
-
-img:active {
-	transform: scale(0.90, 0.90);
-}
-}
-
-
