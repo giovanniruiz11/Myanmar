@@ -282,7 +282,7 @@ h2 {
     }
 
     nav li a:hover {
-      background: red;
+      background: grey;
       display: block;
       opacity: 0.7;
     }
