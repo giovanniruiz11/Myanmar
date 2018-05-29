@@ -194,7 +194,14 @@ h2 {
 		display: flex;
 		flex-wrap: wrap;
 	}
-	
+	p {
+		font-family: roboto, Sans-Serif;
+		color: white;
+		text-align: center;
+		white-space: normal;
+		overflow: hidden;
+		font-size: 1.75vw;
+	}
 	.col {
 		background-color: transparent;
 		display: flex;
@@ -244,7 +251,14 @@ h2 {
 		display: flex;
 		flex-wrap: wrap;
 	}
-	
+	p {
+		font-family: roboto, Sans-Serif;
+		color: white;
+		text-align: center;
+		white-space: normal;
+		overflow: hidden;
+		font-size: 2.5vw;
+	}
 #myTopnav {
       margin: 0 auto;
       width: 100%;
