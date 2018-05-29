@@ -74,6 +74,8 @@ p {
 	font-family: roboto, Sans-Serif;
 	color: white;
 	text-align: center;
+	white-space: normal;
+ 	overflow: hidden;
 }
 
 h1 {
