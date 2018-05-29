@@ -55,7 +55,7 @@
   }
   
 body{
-	background-image: url(https://www.worldtravelguide.net/wp-content/uploads/2017/04/Think-Myanmar-ShwedagonPagoda-576720912-SeanPavonePhoto-copy.jpg);
+	background-image: url(images/bigtree.jpg);/* url(https://www.worldtravelguide.net/wp-content/uploads/2017/04/Think-Myanmar-ShwedagonPagoda-576720912-SeanPavonePhoto-copy.jpg);*/
 	background-repeat: no-repeat;
 	background-attachment: fixed;
 	background-size: cover;
