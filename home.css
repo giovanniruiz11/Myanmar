@@ -32,12 +32,12 @@
       font-family: Verdana, Sans-Serif;
       font-size: 1em;
       color: Black;
-      border-bottom: 0.1em grey;
+      border-bottom: 0.1em #4E2F4E;
       
     }
 
     nav li a:hover {
-      background: grey;
+      background: #4E2F4E;
       transition: .25s ease-in-out;
       opacity: 0.7;
     }
@@ -293,12 +293,12 @@ h2 {
       font-family: Verdana, Sans-Serif;
       font-size: 1em;
       color: black;
-      border-bottom: 0.1em grey;
+      border-bottom: 0.1em #4E2F4E;
       
     }
 
     nav li a:hover {
-      background: grey;
+      background: #4E2F4E;
       display: block;
       opacity: 0.7;
     }
